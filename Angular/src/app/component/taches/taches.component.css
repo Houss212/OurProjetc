@@ -1,20 +1,24 @@
-.container-fluid {
-    background-color: #f1f1f1; /* ajoute un fond gris clair à la page */
+/* Applique un fond blanc à tout le site */
+body {
+    background-color: white;
 }
 
-h1 {
-    font-size: 36px; /* augmente la taille de la police pour le titre */
-    font-weight: bold; /* rend le titre en gras */
-    margin-bottom: 20px; /* ajoute de l'espacement entre le titre et le reste du contenu */
+/* Change la police pour une police plus lisible */
+body {
+    font-family: Arial, sans-serif;
 }
 
-.saisieInput {
-    padding: 10px; /* ajoute de l'espacement intérieur à l'input */
-    border-radius: 5px; /* arrondit les bords de l'input */
-    border: none; /* enlève la bordure de l'input */
-    margin-right: 10px; /* ajoute de l'espacement entre l'input et le bouton */
+/* Applique une bordure arrondie aux images */
+img {
+    border-radius: 10px;
 }
 
-#listeTaches {
-    margin-top: 20px; /* ajoute de l'espacement entre les tâches et le reste du contenu */
+/* Centre les titres */
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Applique une ombre aux boutons */
+button {
+    box-shadow: 2px 2px 2px grey;
 }
