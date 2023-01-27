@@ -4,8 +4,10 @@ export interface Tache {
     status: string,
     termine: boolean
 }
+
+
 export interface ListeTaches {
-    titreListe: string;
-    titreTache: string;
+    ListeT: string;
+    TacheT: string;
     taches : Array<Tache>;
 }
